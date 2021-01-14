@@ -1,9 +1,11 @@
+print( 757//10 )
+
 def get_sum(num):
     rem = sum = 0
     while(num > 0):    
         rem = num%10;    
-        sum = sum + rem;    
-        num =  num//10; 
+        sum = sum + rem  
+        num =  num//10
 
     return sum
   
