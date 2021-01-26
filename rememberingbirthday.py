@@ -6,6 +6,6 @@ for i in range(n):
    data = list(map(str, input().split()))
    friends.append(data)
 
-for friend in friends:
-    print(friend[2])
+for i in range(len(friends)):
+    if friends[i][2] == 
 
