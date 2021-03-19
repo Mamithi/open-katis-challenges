@@ -12,12 +12,11 @@ while True:
     n = int(input())
     if n == 0:
         break
-    m = 10
-    while True:
-        p = add_num(n * m)   
-        print(add_num(p))  
+    m = 11
+    while True: 
+        p = n * m        
 
-        if add_num(p) == n:
+        if add_num(p) == add_num(n):
             print(m)
             break
 
